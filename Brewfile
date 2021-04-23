@@ -15,6 +15,9 @@ cask 'docker'
 
 cask "rectangle", args: { appdir: "~/Applications/Utilities" } # window manager
 
+# Browsers
+cask 'google-chrome'
+
 # Audio/Video
 cask 'spotify'
 cask 'spotmenu' # Spotify in menu bar
