@@ -1,6 +1,9 @@
 # Install casks in the App dir
 cask_args appdir: "/Applications"
 
+# Taps
+tap 'mas-cli/tap' # To install mas on MacOS Mojave
+
 # Brews
 brew 'git'     # Newer version of git
 brew 'zsh'
