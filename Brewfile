@@ -8,7 +8,7 @@ brew 'mas'     # To install Mac App Store apps
 
 # Casks
 # cask 'slack'
-casl 'rubymine'
+cask 'rubymine'
 cask 'visual-studio-code'
 cask 'iterm2'
 cask 'docker'
