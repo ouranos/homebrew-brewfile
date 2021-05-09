@@ -6,8 +6,13 @@ tap 'mas-cli/tap' # To install mas on MacOS Mojave
 
 # Brews
 brew 'git'     # Newer version of git
+brew 'git-gui' # gitk
 brew 'zsh'
-brew 'mas'     # To install Mac App Store apps
+brew 'tmux'
+brew 'vim'     # Newer verion of vim
+brew 'jq'      # JSON manipulation
+
+brew 'mas-cli/tap/mas'     # To install Mac App Store apps
 
 # Casks
 # cask 'slack'
@@ -29,6 +34,10 @@ cask 'vlc'
 # IM
 cask 'whatsapp'
 cask 'discord'
+
+# Utils
+cask 'dropbox'
+cask 'teamviewer'
 
 # App Store
 mas 'Bear', id: 1091189122
