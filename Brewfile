@@ -23,6 +23,9 @@ cask 'docker'
 
 cask "rectangle", args: { appdir: "~/Applications/Utilities" } # window manager
 
+# Office
+cask 'libreoffice'
+
 # Browsers
 cask 'google-chrome'
 
@@ -38,8 +41,12 @@ cask 'discord'
 # Utils
 cask 'dropbox'
 cask 'teamviewer'
+cask 'transmission'
+cask 'nordvpn'
 
 # App Store
 mas 'Bear', id: 1091189122
 mas 'Clocker', id: 1056643111
 mas 'Spark', id: 1176895641
+mas 'Silicio', id: 933627574 # Mini Player & Album Artwork for Spotify & iTunes
+mas 'Microsoft Remote Desktop', id: 1295203466
